@@ -10,14 +10,7 @@
 	</PropertyGroup>
     
     <ItemGroup>
-		<Reference Include="lib\*.dll" />
-	</ItemGroup>
+        <PackageReference Include="NativeFileDialogSharp" Version="0.5.0" />
+    </ItemGroup>
 
-    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-        <ItemGroup>
-            <Libs Include="$(ProjectDir)\nfd.dll;$(ProjectDir)\nfd_x86.dll;$(ProjectDir)\lib\*.dll;$(TargetDir)\RL2.ModLoader.DevSetup.exe" />
-        </ItemGroup>
-
-        <Copy SourceFiles="@(Libs)" DestinationFolder="..\" />
-    </Target>
 </Project>
