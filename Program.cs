@@ -6,7 +6,7 @@ using System.Threading;
 
 public class Program
 {
-	static string OutputPath = string.Join('\\', AppDomain.CurrentDomain.SetupInformation.ApplicationBase!.Split("\\").SkipLast(1)); 
+	static string OutputPath = string.Join('\\', AppDomain.CurrentDomain.SetupInformation.ApplicationBase!.Split("\\").SkipLast(2));
 
 	public static void Main(string[] args) {
 		Console.WriteLine("Welcome to the RL2.ModLoader.DevSetup");
@@ -24,7 +24,7 @@ public class Program
 			return;
 		}
 
-		File.WriteAllText(OutputPath + "RL2.ModLoader.targets", $"""
+		File.WriteAllText(OutputPath + "\\RL2.ModLoader.targets", $"""
 		<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 			<!-- MSBuild variables -->
 			<PropertyGroup>
