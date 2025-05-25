@@ -1,3 +1,4 @@
+rm -rf package
 mkdir package
 dotnet publish
 cd bin/Release/publish

@@ -35,7 +35,9 @@ public class Program
 
 			<!-- Shared references -->
 			<ItemGroup>
-				<Reference Include="{ManagedPath}\*.dll" />
+				<Reference Include="{ManagedPath}\*.dll">
+					<Private>false</Private>
+				</Reference>
 			</ItemGroup>
 		</Project>
 		""");
