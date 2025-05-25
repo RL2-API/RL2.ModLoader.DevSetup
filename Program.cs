@@ -30,7 +30,7 @@ public class Program
 			<PropertyGroup>
 				<RL2_Path>{directory}</RL2_Path>
 				<RL2_DataPath>{DataPath}</RL2_DataPath>
-				<RL2_LibPath>{DataPath}</RL2_LibPath>
+				<RL2_LibPath>{ManagedPath}</RL2_LibPath>
 			</PropertyGroup>
 
 			<!-- Shared references -->
