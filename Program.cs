@@ -29,7 +29,7 @@ public class Program
 			<!-- MSBuild variables -->
 			<PropertyGroup>
 				<RL2_Path>{directory}</RL2_Path>
-				<RL2_DataPath>{DataPath}</RL2_DataPathPath>
+				<RL2_DataPath>{DataPath}</RL2_DataPath>
 				<RL2_LibPath>{DataPath}</RL2_LibPath>
 			</PropertyGroup>
 
