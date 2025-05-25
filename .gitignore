@@ -6,3 +6,6 @@
 # Sublime text project
 *.sublime-workspace
 *.sublime-project
+
+# Packaged files
+package
