@@ -26,7 +26,7 @@ public class Program
 		string ManagedPath = DataPath + "\\Managed";
 
 
-		File.WriteAllText(OutputPath + "\\RL2.ModLoader.targets", $"""
+		File.WriteAllText(OutputPath + "\\RL2.Dev.targets", $"""
 		<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 			<!-- MSBuild variables -->
 			<PropertyGroup>
